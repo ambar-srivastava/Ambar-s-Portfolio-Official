@@ -2,6 +2,16 @@ import React from "react";
 import Image from "next/image";
 import sass from "../public/assets/skills/sass.svg";
 import npm from "../public/assets/skills/npm.svg";
+import html from "../public/assets/skills/html.png";
+import css from "../public/assets/skills/css.png";
+import javaScript from "../public/assets/skills/javascript.png";
+import reactJS from "../public/assets/skills/react.png";
+import tailwindCSS from "../public/assets/skills/tailwind.png";
+import gitHub from "../public/assets/skills/github.png";
+import nodeJS from "../public/assets/skills/node.png";
+import mongoDB from "../public/assets/skills/mongo.png";
+import nextJS from "../public/assets/skills/nextjs.png";
+import fireBase from "../public/assets/skills/firebase.png";
 
 const Skills = () => {
   return (
@@ -15,12 +25,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/html.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={html} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">HTML</h3>
@@ -30,12 +35,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/css.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={css} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">CSS</h3>
@@ -45,12 +45,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/javascript.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={javaScript} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">JavaScript</h3>
@@ -60,12 +55,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/react.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={reactJS} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">React.js</h3>
@@ -75,12 +65,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/tailwind.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={tailwindCSS} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">Tailwind CSS</h3>
@@ -100,12 +85,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/github.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={gitHub} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">GitHub</h3>
@@ -115,12 +95,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/node.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={nodeJS} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">Node.js</h3>
@@ -130,12 +105,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/mongo.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={mongoDB} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">Mondo DB</h3>
@@ -145,12 +115,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/nextjs.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={nextJS} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">Next.js</h3>
@@ -160,12 +125,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/firebase.png"
-                  width="64"
-                  height="64"
-                  alt="/"
-                />
+                <Image src={fireBase} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3 className=" text-md font-semibold">Firebase</h3>
