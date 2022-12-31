@@ -47,11 +47,11 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
-          : "fixed w-full h-20 z-[100]"
+          ? "fixed w-full h-20 shadow-xl z-[100] backdrop-blur-md"
+          : "fixed w-full h-20 z-[100] backdrop-blur-md"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 backdrop-blur-md">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           {/* <h2 className=" !font-fancy text-[50px] text-[#5651e5]">
             Ambar Srivastava
@@ -98,7 +98,7 @@ const Navbar = () => {
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} style={{ color: `${linkColor}` }} />
+            <AiOutlineMenu size={25} style={{ color: "#5651e5" }} />
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
               >
-                <AiOutlineClose />
+                <AiOutlineClose style={{ color: "#5651e5" }} size={20} />
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
