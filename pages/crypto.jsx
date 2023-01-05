@@ -48,12 +48,23 @@ const Crypto = () => {
             eveniet molestiae ipsum, a numquam corrupti!
           </p>
           <div className="mb-10">
-            <button className=" px-14 py-2 mt-4 mr-8 rounded-md tracking-widest">
-              DEMO
-            </button>
-            <button className=" px-14 py-2 mt-4 rounded-md tracking-widest">
-              CODE
-            </button>
+            <Link
+              href="https://cryptocurrencyapplication.netlify.app/"
+              target="_blank"
+            >
+              <button className=" px-14 py-2 mt-4 mr-8 rounded-md tracking-widest">
+                DEMO
+              </button>
+            </Link>
+
+            <Link
+              href="https://github.com/ambar-srivastava/cryptoApp"
+              target="_blank"
+            >
+              <button className=" px-14 py-2 mt-4 rounded-md tracking-widest">
+                CODE
+              </button>
+            </Link>
           </div>
         </div>
 
