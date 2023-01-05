@@ -73,7 +73,7 @@ const Crypto = () => {
             <p className="text-center font-semibold text-2xl text-gray-700 pb-2">
               Technologies
             </p>
-            <div className="px-1 grid items-center grid-cols-3 md:grid-cols-1">
+            <div className="px-1 grid items-center grid-cols-2 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
                 <span className=" font-medium">React.js</span>
