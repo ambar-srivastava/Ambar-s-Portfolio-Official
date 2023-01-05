@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 const ProjectItems = (props) => {
@@ -14,7 +14,9 @@ const ProjectItems = (props) => {
         <h3 className="text-2xl font-medium text-white tracking-wider text-center">
           {props.title}
         </h3>
-        <p className="pb-4 pt-2 text-white text-md font-normal text-center">React JS</p>
+        <p className="pb-4 pt-2 text-white text-md font-normal text-center">
+          React JS
+        </p>
         <Link href={props.projectUrl}>
           <p className="text-center py-3 rounded-md bg-gray-100 text-gray-700 font-semibold text-sm cursor-pointer tracking-wider">
             MORE INFO
