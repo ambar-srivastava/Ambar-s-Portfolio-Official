@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
+import cryptoImg from "../public/assets/projects/cryptoApp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { HiArrowSmLeft } from "react-icons/hi";
