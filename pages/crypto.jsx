@@ -33,19 +33,29 @@ const Crypto = () => {
           </p>
           <h2 className=" text-gray-700 text-3xl my-2">Overview</h2>
           <p className="mb-4 text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-            tempore non omnis dolorem laborum nesciunt voluptates, perspiciatis
-            natus officia aperiam tenetur, minus eos deleniti beatae, modi alias
-            aspernatur dolore suscipit! Distinctio iusto eos quas facilis, sint
-            culpa voluptates maxime mollitia dolor? Quibusdam excepturi ut
-            numquam officia reprehenderit debitis praesentium beatae. Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit. Ex minus
-            dignissimos quidem. Delectus dolorum placeat quae dolor dignissimos,
-            commodi saepe provident fugiat! Ipsam dolor ea tenetur debitis ut.
-            Quae, doloremque! Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Eos quae quaerat eaque voluptate ea dolorum non
-            rerum aliquam modi laboriosam praesentium, illo vero perspiciatis
-            eveniet molestiae ipsum, a numquam corrupti!
+            CryptoApp is a web application that provides users with a convenient and
+            user-friendly interface for viewing and interacting with real-time
+            cryptocurrency data and charts. The application is built using
+            React, a JavaScript library for building user interfaces, and Redux
+            Toolkit, a set of tools that simplifies the process of using Redux,
+            a state management library, in a React application. <br />
+            <br />
+            The application utilizes Chart.js, a JavaScript library that allows
+            developers to create visually appealing charts and graphs, to
+            display cryptocurrency data in an easy-to-understand format. The
+            user interface is designed using Ant Design, a React-based design
+            system that provides a set of high-quality UI components and a
+            consistent design language. <br /> <br />
+            To access cryptocurrency data, the application utilizes RapidAPI, a
+            platform that allows developers to discover and connect to
+            third-party APIs. This allows the application to retrieve real-time
+            data from various sources, such as exchanges or market data
+            providers. <br />
+            <br />
+            Overall, the combination of React, Redux Toolkit, Chart.js, Ant
+            Design, and RapidAPI allows the application to provide users with a
+            powerful and feature-rich interface for interacting with
+            cryptocurrency data.
           </p>
           <div className="mb-10">
             <Link
