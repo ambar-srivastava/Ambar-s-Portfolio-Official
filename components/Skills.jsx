@@ -78,7 +78,7 @@ const Skills = () => {
                 <Image src={sass} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className=" text-md font-semibold">SASS</h3>
+                <h3 className=" text-md font-semibold">SASS(SCSS)</h3>
               </div>
             </div>
           </div>
