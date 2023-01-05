@@ -76,11 +76,15 @@ const Crypto = () => {
             <div className="px-1 grid items-center grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
-                <span className=" font-medium">React</span>
+                <span className=" font-medium">React.js</span>
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
-                <span className=" font-medium">Tailwind</span>
+                <span className=" font-medium">Redux Toolkit</span>
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1 mr-1" />
+                <span className=" font-medium">Ant Design</span>
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
@@ -88,7 +92,7 @@ const Crypto = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
-                <span className=" font-medium">Firebase</span>
+                <span className=" font-medium">Chart.js</span>
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
