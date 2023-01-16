@@ -76,13 +76,14 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className=" p-4">
-              <form>
+              <form method="POST" action="https://formspree.io/f/moqzvjeq">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm text-gray-500 py-2">
                       Full Name
                     </label>
                     <input
+                      name="Full Name"
                       className=" border-2 outline-0 rounded-lg p-3 flex border-gray-300"
                       type="text"
                     />
@@ -92,6 +93,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
+                      name="Phone Number"
                       className=" border-2 outline-0 rounded-lg p-3 flex border-gray-300"
                       type="text"
                     />
@@ -102,6 +104,7 @@ const Contact = () => {
                     Email address
                   </label>
                   <input
+                    name="Email ID"
                     className=" border-2 outline-0 rounded-lg p-3 flex border-gray-300"
                     type="email"
                   />
@@ -111,6 +114,7 @@ const Contact = () => {
                     Subject
                   </label>
                   <input
+                    name="Subject"
                     className=" border-2 outline-0 rounded-lg p-3 flex border-gray-300"
                     type="text"
                   />
@@ -120,6 +124,7 @@ const Contact = () => {
                     Message
                   </label>
                   <textarea
+                    name="Message"
                     className=" border-2 outline-0 rounded-lg p-3 border-gray-300"
                     rows="10"
                   ></textarea>
