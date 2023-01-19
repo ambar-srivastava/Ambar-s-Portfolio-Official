@@ -22,7 +22,7 @@ const Navbar = () => {
     if (
       router.asPath === "/property" ||
       router.asPath === "/crypto" ||
-      router.asPath === "/netflix" ||
+      router.asPath === "/portfolio" ||
       router.asPath === "/twitch"
     ) {
       setNavBg("transparent");

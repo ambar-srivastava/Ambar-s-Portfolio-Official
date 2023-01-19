@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItems from "./ProjectItems";
 import propetyImg from "../public/assets/projects/property.jpg";
 import cryptoImg from "../public/assets/projects/CryptoApp.png";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import portfolioImg from "../public/assets/projects/portfolio.png";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 
 const Projects = () => {
@@ -25,9 +25,9 @@ const Projects = () => {
             projectUrl="/crypto"
           />
           <ProjectItems
-            title="Netflix Clone"
-            backgroundImg={netflixImg}
-            projectUrl="/netflix"
+            title="Personal Portfolio"
+            backgroundImg={portfolioImg}
+            projectUrl="/portfolio"
           />
           <ProjectItems
             title="Twitch Clone"

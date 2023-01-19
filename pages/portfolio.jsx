@@ -1,11 +1,11 @@
 import Image from "next/legacy/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import portfolioImg from "../public/assets/projects/portfolio.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import { HiArrowSmLeft } from "react-icons/hi";
 
-const Netflix = () => {
+const Portfolio = () => {
   return (
     <div className="w-full overflow-x-hidden">
       <div className="w-screen h-[35vh] lg:h-[45vh] relative">
@@ -14,16 +14,14 @@ const Netflix = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={portfolioImg}
           alt="/"
         />
         <div className=" absolute top-[75%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white p-2 z-10">
           <h2 className="py-2 font-medium text-4xl text-gray-200">
-            Netflix Clone UI
+            Personal Portfolio
           </h2>
-          <h3 className=" font--gray-300">
-            React JS / Tailwind / Firebase
-          </h3>
+          <h3 className=" font--gray-300">React JS / Tailwind / Next JS</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 items-center gap-8 pt-8 ">
@@ -33,27 +31,39 @@ const Netflix = () => {
           </p>
           <h2 className=" text-gray-700 text-3xl my-2">Overview</h2>
           <p className="mb-4 text-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
-            tempore non omnis dolorem laborum nesciunt voluptates, perspiciatis
-            natus officia aperiam tenetur, minus eos deleniti beatae, modi alias
-            aspernatur dolore suscipit! Distinctio iusto eos quas facilis, sint
-            culpa voluptates maxime mollitia dolor? Quibusdam excepturi ut
-            numquam officia reprehenderit debitis praesentium beatae. Lorem,
-            ipsum dolor sit amet consectetur adipisicing elit. Ex minus
-            dignissimos quidem. Delectus dolorum placeat quae dolor dignissimos,
-            commodi saepe provident fugiat! Ipsam dolor ea tenetur debitis ut.
-            Quae, doloremque! Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Eos quae quaerat eaque voluptate ea dolorum non
-            rerum aliquam modi laboriosam praesentium, illo vero perspiciatis
-            eveniet molestiae ipsum, a numquam corrupti!
+            The portfolio website was created using Next.js, a popular
+            JavaScript framework for building server-rendered React
+            applications. <br /> <br /> Next.js provides a powerful set of
+            features that make it easy to build fast, scalable, and SEO-friendly
+            web applications. <br />
+            <br /> The website also uses Tailwind CSS, a utility-first CSS
+            framework that provides a set of pre-defined CSS classes that can be
+            used to quickly style elements on the page. <br />
+            <br /> Together, Next.js and Tailwind CSS provide a powerful toolset
+            for building high-performance, visually appealing websites that are
+            easy to maintain. <br />
+            <br /> The portfolio website showcases my projects, skills, and
+            experiences. It also has a clean and modern design, making it easy
+            for potential clients and employers to navigate and learn more about
+            my background and expertise.
           </p>
           <div className="mb-10">
-            <button className=" px-14 py-2 mt-4 mr-8 rounded-md tracking-widest">
-              DEMO
-            </button>
-            <button className=" px-14 py-2 mt-4 rounded-md tracking-widest">
-              CODE
-            </button>
+            <Link
+              target="_blank"
+              href="https://ambar-portfolio-official.vercel.app/"
+            >
+              <button className=" px-14 py-2 mt-4 mr-8 rounded-md tracking-widest">
+                DEMO
+              </button>
+            </Link>
+            <Link
+              target="_blank"
+              href="https://github.com/ambar-srivastava/Ambar-s-Portfolio-Official.git"
+            >
+              <button className=" px-14 py-2 mt-4 rounded-md tracking-widest">
+                CODE
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -77,15 +87,15 @@ const Netflix = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
-                <span className=" font-medium">Firebase</span>
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1 mr-1" />
-                <span className=" font-medium">Rapid API</span>
+                <span className=" font-medium">Next.Js</span>
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1 mr-1" />
                 <span className=" font-medium">HTML/CSS</span>
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1 mr-1" />
+                <span className=" font-medium">Vite</span>
               </p>
             </div>
           </div>
@@ -100,4 +110,4 @@ const Netflix = () => {
   );
 };
 
-export default Netflix;
+export default Portfolio;

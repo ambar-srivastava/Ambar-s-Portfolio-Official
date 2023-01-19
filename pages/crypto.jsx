@@ -33,12 +33,12 @@ const Crypto = () => {
           </p>
           <h2 className=" text-gray-700 text-3xl my-2">Overview</h2>
           <p className="mb-4 text-sm">
-            CryptoApp is a web application that provides users with a convenient and
-            user-friendly interface for viewing and interacting with real-time
-            cryptocurrency data and charts. The application is built using
-            React, a JavaScript library for building user interfaces, and Redux
-            Toolkit, a set of tools that simplifies the process of using Redux,
-            a state management library, in a React application. <br />
+            CryptoApp is a web application that provides users with a convenient
+            and user-friendly interface for viewing and interacting with
+            real-time cryptocurrency data and charts. The application is built
+            using React, a JavaScript library for building user interfaces, and
+            Redux Toolkit, a set of tools that simplifies the process of using
+            Redux, a state management library, in a React application. <br />
             <br />
             The application utilizes Chart.js, a JavaScript library that allows
             developers to create visually appealing charts and graphs, to
