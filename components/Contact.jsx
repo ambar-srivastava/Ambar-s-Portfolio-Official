@@ -76,7 +76,8 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className=" p-4">
-              <form method="POST" action="https://formspree.io/f/moqzvjeq">
+              {/* <form method="POST" action="https://formspree.io/f/moqzvjeq"> */}
+              <form method="POST" action="https://usebasin.com/f/fb5fa0b7ed13">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm text-gray-500 py-2">
